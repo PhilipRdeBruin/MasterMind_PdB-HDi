@@ -1,0 +1,368 @@
+
+.hidden {
+	display						: none;
+}
+
+.kolom1 {
+	column-width				: 75%; 
+	font-size					: 14px;
+	text-align					: left;
+}
+
+.kolom2 {
+	column-width				: 25%; 
+	font-size					: 14px;
+	text-align					: center;
+}
+
+.rij {
+	height						: 45px;
+}
+
+#spelbord {
+		float							: left;
+		margin-left				: 100px;
+		margin-top				: 25px;
+		width						: 340px;
+		height						: 675px;
+		background-image		: url("Speelbord.png");
+		border-radius				: 10px;
+		box-shadow				: 20px 20px 15px 10px #aaa;
+}
+
+#turns {
+		margin-top				: 30px;
+		margin-left				: 10%;
+		width					: 270px;
+		height					: 24px;
+		padding					: 8px;
+		color					: #048;
+		font-size				: 16px;
+		text-align				: center; 
+		background				: #ddd;
+		border					: 1px solid #666;
+		border-radius			: 7px; 
+}
+/* ------------------------------------------ */
+
+#gaatjes1 {
+		float							: left;
+		margin-left				: 25px;
+		margin-top				: 20px;
+		width						: 220px;
+		height						: 570px;
+/*		background				: green;    */
+}
+
+.dropholder, .dropholder0 {
+		float							: left;
+		width						: 20%;
+		height						: 60px;
+}
+
+.dropholder0 {
+		margin-top				: 10px;
+}
+
+.dropid {
+		width						: 20px;
+		height						: 20px;
+/*		background				: #ccc;   */
+		background-image		: url("Rondje3_bg-bruin_adj.png");
+		background-size			: contain;
+}
+
+/* ------------------------------------------ */
+
+#gaatjes2 {
+		float							: left;
+		margin-left				: 20px;
+		margin-top				: 20px;
+		width						: 70px;
+		height						: 570px;
+/*		background				: #f60;   */
+}
+
+.pinrij {
+		clear							: left;
+		width						: 100%;
+		height						: 70px;
+		margin-left				: 5%;
+		margin-top				: -10px;
+}
+
+.pinholder {
+		float							: left;
+		width						: 30%;
+		height						: 15px;
+		margin-top				: 5px;
+}
+
+.pinid {
+		width						: 10px;
+		height						: 10px;
+/*		background				: #ccc;   */
+		background-image		: url("Rondje3_bg-bruin_adj.png");
+		background-size			: contain;
+}
+
+.pinkleur {
+		width						: 27px;
+		height						: 27px;
+}
+
+.pinzw {
+		width						: 15px;
+		height						: 15px;
+}
+
+/* ------------------------------------------ */
+
+#cover {
+		float					: left;
+		margin-left				: 15px;
+		margin-top				: 30px;
+		width					: 220px;
+		height					: 40px;
+		background				: #984620;
+		visibility				: hidden;
+		/* opacity					: 1; */
+}
+
+#covertgl {
+		float							: left;
+		margin-left				: 20px;
+		margin-top				: 20px;
+		width						: 80px;
+		height						: 60px;
+		background				: #984620;
+		border-radius				: 10px;
+		cursor						: pointer;
+}
+
+/* ------------------------------------------ */
+
+#knoppen {
+		float							: left;
+		margin-top				: 15px;
+		margin-left				: 30px;
+		width						: 85px;
+		height						: 600px;
+/*		background				: #c9f;   */
+}
+
+.knoppen, .knop0 {
+		float						: top;
+		width						: 60px;
+		height						: 28px;
+		vertical-align				: center;
+		margin						: 4px 12px 12px 12px;
+		cursor						: pointer;
+}
+
+#knop0 {
+		margin-top				: 20px;
+		visibility				: visible;
+}
+
+/* #knop1 {
+		visibility			: hidden;
+} */
+
+/* ------------------------------------------ */
+
+#doosjes {
+		float				: left;
+		margin-left			: 50px;
+		margin-top			: 200px;	/* 50px; */
+		width				: 240px;
+		height				: 350px;
+		visibility			: hidden;
+/*		background			: #ddd;   */
+}
+
+/* ------------------------------------------ */
+
+#kleurenpalet {
+		margin-left			: 0px;
+		margin-top			: 0px;
+		width				: 200px;
+		height				: 200px;
+		border-radius		: 10px;
+		box-shadow			: 20px 20px 15px 10px #aaa;
+		border				: #eee 1px solid;
+		visibility			: visible;
+}
+
+#speldata {
+		margin-left				: 0px;
+		margin-top				: 100px;
+		width					: 220px;
+		height					: 200px;
+		padding					: 10px;
+		font-size				: 12px;
+		background				: #bbb;
+		border-radius			: 10px;
+		box-shadow				: 20px 20px 15px 10px #aaa;
+		border					: #a8a8a8 1px solid;
+}
+
+#initdata, #statusdata {
+		margin					: 10px auto auto 20px;
+		padding					: 2px 10px 2px 10px; 
+		max-width				: 150px;
+		text-emphasis			: wrap; 
+		color					: #24a; 
+		background				: #eee;
+		border					: 1px solid #666;
+}
+
+#hulppalet {
+		width					: 200px;
+		height					: 200px;
+}
+
+.paletrij {
+		clear						: left;
+		width					: 85%;
+		height					: 16%;
+		margin-left			: 16%;
+		margin-top			: 14%;
+}
+
+.paletkol {
+		float						: left;
+		width					: 33%;
+		height					: 24px;
+}
+
+.dragcl {
+		width					: 24px;
+		height					: 24px;
+}
+
+#kleur, #zwwi {
+		cursor						: pointer;
+		z-index						: 1;
+}
+
+
+/* ------------------------------------------ */
+
+#pinnen {
+		margin-left			: 0px;
+		margin-top			: 50px;
+		width				: 200px;
+		height				: 75px;
+		border-radius		: 10px;
+		box-shadow			: 20px 20px 15px 10px #aaa;
+		border				: #eee 1px solid;
+		visibility			: visible;
+		position			: relative;
+}
+
+.zwartwitrij {
+		clear						: left;
+		width					: 85%;
+		height					: 16%;
+		margin-left			: 16%;
+		margin-top			: 8%;
+}
+
+.zwartwitkol {
+		float						: left;
+		width					: 18%;
+		height					: 12px;
+}
+
+.blackwhite {
+		width					: 12px;
+		height					: 12px;
+}
+
+
+/* ------------------------------------------ */
+
+#nieuwspel {
+		clear						: left;
+		width					: 340px;
+		margin-left			: 100px;
+		margin-top			: 50px;
+}
+
+#nwspelknop {
+		width					: 200px;
+		height					: 30px;
+		margin-left			: 70px;
+		margin-top			: 50px;
+}
+
+
+/* ------------------------------------------ */
+
+#formulier {
+	position					: relative;
+	left						: -820px;
+	top							: 50px;
+	float							: left;
+	overflow					: auto;
+	width						: 230px;
+	height						: 475px;
+	margin-left				: 100px;
+	margin-top				: 50px;
+	padding-left				: 20px;
+	padding-right				: 20px;
+	padding-top				: 30px;
+	background				: #ddd;
+	border-radius				: 10px;
+	box-shadow				: 20px 20px 15px 10px #aaa;
+	visibility				: hidden;
+	z-index					: 999;
+}
+
+#name {
+	width						: 120px;
+	margin-left				: 30px;
+}
+
+#email {
+	width						: 120px;
+	height						: 15px;
+	margin-left				: 17px;
+	font-size					: 10px;
+/*	background				: red;   */
+}
+
+#npos, #nkleur {
+	width						: 50px;
+	padding-left				: 10px;
+	text-align					: center;
+}
+
+#npos {
+	margin-left				: 30px;
+}
+
+#nkleur {
+	margin-left				: 48px;
+}
+
+#legepos {
+	margin-left				: 30px;
+}
+
+#multkleur {
+	margin-left				: 46px;
+}
+
+#invoeren {
+	margin-top				: 20px;
+	margin-left				: 85px;
+}
+
+#textarea {
+	width						: 200px;
+	height						: 70px;
+	margin-left				: 10px;
+	margin-top				: 0px;
+}
